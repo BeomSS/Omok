@@ -1,0 +1,100 @@
+# =============================================================================
+# Secrets, Signing Keys & Credentials (NEVER commit to a public repository)
+# =============================================================================
+android/key.properties
+*.jks
+*.keystore
+*.p12
+*.p8
+*.pem
+*.cer
+*.crt
+*.key
+*.mobileprovision
+AuthKey_*.p8
+ExportOptions.plist
+.env
+.env.*
+!.env.example
+**/GoogleService-Info.plist
+**/google-services.json
+*service-account*.json
+*firebase*adminsdk*.json
+
+# =============================================================================
+# OS & Editor / IDE Noise
+# =============================================================================
+.DS_Store
+Thumbs.db
+*.class
+*.log
+*.pyc
+*.swp
+*.swo
+*~
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ / Android Studio / VS Code
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# =============================================================================
+# Flutter / Dart / Pub
+# =============================================================================
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+.widget_preview/
+
+# Symbolication & Obfuscation outputs
+app.*.symbols
+app.*.map.json
+
+# =============================================================================
+# Android / Gradle / Kotlin Local Caches & Artifacts
+# =============================================================================
+android/local.properties
+android/.gradle/
+android/.kotlin/
+android/app/debug/
+android/app/profile/
+android/app/release/
+*.apk
+*.aab
+*.ap_
+
+# =============================================================================
+# iOS / Xcode Local Files & Build Artifacts
+# =============================================================================
+**/ios/Flutter/.last_build_id
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Pods/
+**/xcuserdata/
+**/DerivedData/
+*.ipa
+*.xcarchive/
+*.dSYM/
+*.dSYM.zip
+
+# =============================================================================
+# Store Assets (Keep privacy_policy.md & support.html tracked for GitHub Pages)
+# =============================================================================
+store_assets/ios/
+store_assets/android/

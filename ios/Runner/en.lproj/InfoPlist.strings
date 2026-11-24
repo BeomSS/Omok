@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "Omok";
+"CFBundleName" = "Omok";
+"NSLocalNetworkUsageDescription" = "Local network access is needed to discover and play 2-player Omok with nearby devices on the same Wi-Fi or personal hotspot.";
